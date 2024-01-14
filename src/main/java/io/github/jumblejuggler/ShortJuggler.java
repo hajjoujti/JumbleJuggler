@@ -9,11 +9,11 @@ import io.github.jumblejuggler.exceptions.JumbleJugglerException;
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
- * Utility class for generating random shorts with various constrashorts.
+ * Utility class for generating random shorts with various constraints.
  *
  * <p>This class provides methods for generating random shorts within specified ranges, with
- * specific signs, and with a given length. It also handles constrashorts such as minimum and
- * maximum values, positivity, and negativity.
+ * specific signs, and with a given length. It also handles constraints such as minimum and maximum
+ * values, positivity, and negativity.
  *
  * <p>Example usage:
  *
@@ -34,7 +34,7 @@ import java.util.concurrent.ThreadLocalRandom;
  * }</pre>
  *
  * <p>The class throws {@link JumbleJugglerException} for exceptional cases, such as invalid
- * constrashorts or when a negative value is provided where only positive values are allowed.
+ * constraints or when a negative value is provided where only positive values are allowed.
  *
  * @see JumbleJugglerException
  */
